@@ -31,4 +31,9 @@
     <string name="permlab_manageRemotePrefs">manage remote settings</string>
     <string name="permdesc_manageRemotePrefs">Allows an app to manage remote settings</string>
 
+    <!-- Used in Settings -->
+    <string name="ng_version">droid-ng Version</string>
+    <string name="ng_maintainer_unknown">Unknown</string>
+    <string name="ng_maintainer_title">Device maintainer</string>
+
 </resources>
