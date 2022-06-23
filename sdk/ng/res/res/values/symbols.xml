@@ -23,4 +23,26 @@
     <!-- NG system server -->
     <java-symbol type="string" name="config_externalSystemServer" />
 
+    <!-- SystemUI -->
+    <java-symbol type="string" name="custom_hint" />
+    <java-symbol type="string" name="lockscreen_default" />
+    <java-symbol type="string" name="lockscreen_hidden" />
+    <java-symbol type="string" name="drag_or_tap_to_add_tiles" />
+    <java-symbol type="string" name="screenshot_delete_label" />
+    <java-symbol type="string" name="screenrecord_delete_description" />
+    <java-symbol type="string" name="screenrecord_delete_label" />
+    <java-symbol type="string" name="select_keycode" />
+    <java-symbol type="string" name="start" />
+    <java-symbol type="string" name="center" />
+    <java-symbol type="string" name="end" />
+    <java-symbol type="string" name="add_button" />
+    <java-symbol type="string" name="space" />
+    <java-symbol type="string" name="left" />
+    <java-symbol type="string" name="right" />
+    <java-symbol type="string" name="navbar_editor_power" />
+    <java-symbol type="string" name="navbar_editor_volup" />
+    <java-symbol type="string" name="navbar_editor_voldown" />
+    <java-symbol type="string" name="select_button" />
+    <java-symbol type="string" name="adjust_button_width" />
+
 </resources>
