@@ -45,4 +45,7 @@
 
     <!-- droid-ng Dashboard -->
     <string name="ng_dashboard_title">droid-ng Dashboard</string>
+
+    <string name="prc_qs_title">PRC-QS layout</string>
+    <string name="prc_qs_summary">Use small-screen-optimized quick settings layout with compacter tiles</string>
 </resources>

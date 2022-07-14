@@ -13,4 +13,10 @@
 -->
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
 
+    <org.eu.droid_ng.preference.NgSystemSettingSwitchPreference
+        android:key="prc_qs"
+        android:title="@string/prc_qs_title"
+        android:summary="@string/prc_qs_summary"
+        android:defaultValue="true" />
+
 </PreferenceScreen>

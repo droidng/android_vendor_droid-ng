@@ -475,6 +475,16 @@ public final class NgSettings {
                 CALL_METHOD_PUT_SYSTEM,
                 sProviderHolder);
 
+
+        /**
+         * Whether to enable prc qs.
+         */
+        public static final String PRC_QS = "prc_qs";
+
+        /** @hide */
+        public static final Validator PRC_QS_VALIDATOR =
+                sBooleanValidator;
+
         /** @hide */
         protected static final ArraySet<String> MOVED_TO_SECURE;
         static {
@@ -891,6 +901,8 @@ public final class NgSettings {
         public static final Map<String, Validator> VALIDATORS =
                 new ArrayMap<String, Validator>();
         static {
+            VALIDATORS.put(PRC_QS,
+                    PRC_QS_VALIDATOR);
             VALIDATORS.put(__MAGICAL_TEST_PASSING_ENABLER,
                     __MAGICAL_TEST_PASSING_ENABLER_VALIDATOR);
         };
