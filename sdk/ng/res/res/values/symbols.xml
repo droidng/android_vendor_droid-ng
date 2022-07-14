@@ -16,6 +16,7 @@
      limitations under the License.
 -->
 <resources>
+    <java-symbol type="drawable" name="ic_launcher_ng" />
 	
     <!-- External NG specific core services -->
     <java-symbol type="array" name="config_externalNgServices" />

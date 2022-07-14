@@ -2,7 +2,8 @@
 PRODUCT_PACKAGES += \
     org.eu.droid_ng.platform-res \
     org.eu.droid_ng.platform \
-    NgSettingsProvider
+    NgSettingsProvider \
+    NgParts
 
 # AOSP has no support of loading framework resources from /system_ext
 # so the SDK has to stay in /system for now
