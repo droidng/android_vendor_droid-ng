@@ -44,7 +44,8 @@
     <string name="summary_empty" translatable="false"></string>
 
     <!-- droid-ng Dashboard -->
-    <string name="ng_dashboard_title">droid-ng Dashboard</string>
+    <string name="ng_dashboard_title">droid-ng</string>
+    <string name="ng_dashboard_summary">All our extras in one place</string>
 
     <string name="prc_qs_title">PRC-QS layout</string>
     <string name="prc_qs_summary">Use small-screen-optimized quick settings layout with compacter tiles</string>
