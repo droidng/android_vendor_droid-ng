@@ -3,17 +3,7 @@
 -keep class org.eu.droid_ng.ngparts.*Picker
 -keep class org.eu.droid_ng.ngparts.*Settings
 
--keep class org.eu.droid_ng.ngparts.contributors.*
--keep class org.eu.droid_ng.ngparts.gestures.*
--keep class org.eu.droid_ng.ngparts.hardware.*
--keep class org.eu.droid_ng.ngparts.input.*
--keep class org.eu.droid_ng.ngparts.lineagestats.*
--keep class org.eu.droid_ng.ngparts.livedisplay.*
--keep class org.eu.droid_ng.ngparts.notificationlight.*
--keep class org.eu.droid_ng.ngparts.power.*
--keep class org.eu.droid_ng.ngparts.privacyguard.*
--keep class org.eu.droid_ng.ngparts.profiles.*
--keep class org.eu.droid_ng.ngparts.sounds.*
+-keep class org.eu.droid_ng.ngparts.NgDashboard
 
 # Keep keyhandler constructor
 -keep public class * implements com.android.internal.os.DeviceKeyHandler {
