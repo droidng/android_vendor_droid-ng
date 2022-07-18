@@ -1,2 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="reset">Zurücksetzen</string>
+    <string name="screenshot_delete_label">Löschen</string>
+    <string name="screenshot_delete_description">Screenshot löschen</string>
+    <string name="ng_system_label">droid-ng-System</string>
+    <string name="permlab_writeSettings">droid-ng-Systemeinstellungen bearbeiten</string>
+    <string name="permdesc_writeSettings">Erlaubt einer Anwendung, droid-ng-Systemeinstellungen zu bearbeiten.</string>
+    <string name="permlab_writeSecureSettings">droid-ng-Sicherheitseinstellungen bearbeiten</string>
+    <string name="permdesc_writeSecureSettings">Erlaubt einer Anwendung, droid-ng-Sicherheitseinstellungen zu bearbeiten. Nicht für normale Anwendungen.</string>
+    <string name="permlab_manageRemotePrefs">Remote-Einstellungen verwalten</string>
+    <string name="permdesc_manageRemotePrefs">Erlaubt einer Anwendung, Remote-Einstellungen zu verwalten</string>
+    <string name="ng_version">droid-ng Version</string>
+    <string name="ng_maintainer_unknown">Unbekannt</string>
+    <string name="ng_maintainer_title">Gerätemaintainer</string>
+    <string name="systemui_tuner_navbar_title">Layout</string>
+    <string name="navigation_bar_format_title">Navigationsleistenformat</string>
+    <string name="preview">Vorschau</string>
+    <string name="keycode">Taste</string>
+    <string name="no_home_title">Kein Home-Knopf gefunden</string>
+    <string name="no_home_message">Ein Home-Knopf ist nötig, um dieses Gerät navigieren zu können. Bitte fügen Sie einen Home-Knopf hinzu.</string>
+    <string name="keycode_description">Tastenknöpfe erlauben es, Tastaturtasten zur Navigationsleiste hinzuzufügen. Wenn gedrückt, emulieren sie den gewählten Tastaturknopf. Zuerst muss eine Taste ausgewählt werden, worauf ein Bild für den Knopf folgt.</string>
+    <string name="start">Start</string>
+    <string name="center">Mitte</string>
+    <string name="end">Ende</string>
+    <string name="space">Platzhalter</string>
+    <string name="menu_ime">Menü / IME-Umschalter</string>
+    <string name="select_button">Wähle Knopf zum hinzufügen aus</string>
+    <string name="add_button">Knopf hinzufügen</string>
+    <string name="save">Speichern</string>
+    <string name="select_keycode">Tastaturtaste auswählen</string>
+    <string name="left">Links</string>
+    <string name="right">Rechts</string>
+    <string name="navbar_editor_power">Ein/Aus</string>
+    <string name="navbar_editor_volup">Lauter</string>
+    <string name="navbar_editor_voldown">Leiser</string>
+    <string name="navbar_editor_title">Bearbeiten</string>
+    <string name="navbar_editor_summary">Navigationsleiste bearbeiten</string>
+    <string name="adjust_button_width">Knopfbreite anpassen</string>
+    <string name="lockscreen_shortcuts">Sperrbildschirmverknüpfungen</string>
+    <string name="lockscreen_default">Standard</string>
+    <string name="lockscreen_hidden">Keine</string>
+    <string name="custom_hint">Vom Symbol wischen, um fortzufahren</string>
+    <string name="drag_or_tap_to_add_tiles">Zum Verschieben Kachel antippen</string>
+    <string name="screenrecord_delete_label">Löschen</string>
+    <string name="screenrecord_delete_description">Bildschirmaufnahme gelöscht</string>
+    <string name="debug_hw_renderer">GPU-Renderer auswählen</string>
+    <string name="extreme_battery_saver_text">Extrem</string>
+    <string name="clipboard_description">Die Zwischenablage erlaubt es, Dinge direkt in die Zwischenablage zu ziehen. Dinge können auch herausgezogen werden, wenn vorhanden.</string>
+</resources>
