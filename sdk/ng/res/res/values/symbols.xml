@@ -46,4 +46,7 @@
     <java-symbol type="string" name="select_button" />
     <java-symbol type="string" name="adjust_button_width" />
 
+    <java-symbol type="string" name="extreme_battery_saver_text" />
+    <java-symbol type="string" name="debug_hw_renderer" />
+
 </resources>
