@@ -52,7 +52,7 @@ public class BootReceiver extends BroadcastReceiver {
 
     private static final String[] restrictedPkgNames = new String[] {
             "com.google.android.gms", "com.android.vending", "com.google.android.googlequicksearchbox",
-            "com.google.android.setupwizard", "com.google.android.projection.gearhead"
+            "com.google.android.setupwizard", "com.google.android.projection.gearhead", "com.google.android.apps.restore"
     };
 
     @Override
