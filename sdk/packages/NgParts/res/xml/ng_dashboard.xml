@@ -18,5 +18,14 @@
         android:title="@string/prc_qs_title"
         android:summary="@string/prc_qs_summary"
         android:defaultValue="true" />
+    
+    <org.eu.droid_ng.preference.NgSecureSettingListPreference
+        android:key="power_menu_type"
+        android:title="@string/power_menu_type_title"
+        android:summary="%s"
+        android:dialogTitle="@string/power_menu_type_title"
+        android:entries="@array/power_menu_type_entries"
+        android:entryValues="@array/power_menu_type_values"
+        android:defaultValue="0" />
 
 </PreferenceScreen>

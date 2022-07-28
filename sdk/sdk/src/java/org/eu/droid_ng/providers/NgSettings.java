@@ -1305,6 +1305,18 @@ public final class NgSettings {
 
         // region Secure Settings
 
+        /**
+         * Int value specifying the power menu type (default is 0)
+         * 0 - Lite
+         * 1 - Full
+         * 2 - Classic
+         * 3 - Grid
+         * 4 - Legacy
+         * @hide
+         */
+        public static final String POWER_MENU_TYPE = "power_menu_type";
+
+
         // endregion
 
         /**
@@ -1339,6 +1351,7 @@ public final class NgSettings {
         public static final Map<String, Validator> VALIDATORS =
                 new ArrayMap<String, Validator>();
         static {
+            VALIDATORS.put(POWER_MENU_TYPE, new DiscreteValueValidator(new String[] {"0", "1", "2", "3", "4"}));
         }
     }
 
