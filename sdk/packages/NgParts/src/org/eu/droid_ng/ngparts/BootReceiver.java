@@ -23,7 +23,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.net.ConnectivitySettingsManager;
-import android.os.SystemProperties;
+import android.os.Process;
 import android.util.Log;
 
 import java.util.ArrayList;
@@ -82,6 +82,124 @@ public class BootReceiver extends BroadcastReceiver {
             }
         }
 
+        // Recommened default permissions
+        grantPermissions(pm, "com.google.android.gms", new String[] {
+                "android.permission.SEND_SMS", "android.permission.RECEIVE_SMS", "android.permission.READ_SMS",
+                "android.permission.RECEIVE_WAP_PUSH", "android.permission.RECEIVE_MMS",
+                "android.permission.READ_CELL_BROADCASTS", "android.permission.ACCESS_BACKGROUND_LOCATION",
+                "android.permission.READ_CALL_LOG", "android.permission.WRITE_CALL_LOG",
+                "android.permission.PROCESS_OUTGOING_CALLS", "android.permission.BLUETOOTH_ADVERTISE",
+                "android.permission.BLUETOOTH_CONNECT", "android.permission.BLUETOOTH_SCAN",
+                "android.permission.UWB_RANGING", "android.permission.READ_PHONE_STATE",
+                "android.permission.CALL_PHONE", "android.permission.ADD_VOICEMAIL", "android.permission.USE_SIP",
+                "android.permission.ACTIVITY_RECOGNITION", "android.permission.READ_CONTACTS", "android.permission.WRITE_CONTACTS",
+                "android.permission.GET_ACCOUNTS", "android.permission.BODY_SENSORS", "android.permission.CAMERA",
+                "android.permission.RECORD_AUDIO", "android.permission.READ_EXTERNAL_STORAGE", "android.permission.WRITE_EXTERNAL_STORAGE",
+                "android.permission.ACCESS_MEDIA_LOCATION", "android.permission.FAKE_PACKAGE_SIGNATURE"
+        });
+        grantPermissions(pm, "com.google.android.gsf", new String[] {
+                "android.permission.READ_CALL_LOG", "android.permission.WRITE_CALL_LOG",
+                "android.permission.PROCESS_OUTGOING_CALLS", "android.permission.READ_PHONE_STATE",
+                "android.permission.CALL_PHONE", "android.permission.ADD_VOICEMAIL", "android.permission.USE_SIP",
+                "android.permission.READ_CONTACTS", "android.permission.WRITE_CONTACTS",
+                "android.permission.GET_ACCOUNTS", "com.google.android.providers.talk.permission.READ_ONLY",
+                "com.google.android.providers.talk.permission.WRITE_ONLY"
+        });
+        grantPermissions(pm, "com.google.android.googlequicksearchbox", new String[] {
+                "android.permission.SEND_SMS", "android.permission.RECEIVE_SMS", "android.permission.READ_SMS",
+                "android.permission.RECEIVE_WAP_PUSH", "android.permission.RECEIVE_MMS",
+                "android.permission.READ_CELL_BROADCASTS", "android.permission.ACCESS_BACKGROUND_LOCATION",
+                "android.permission.READ_CALL_LOG", "android.permission.WRITE_CALL_LOG",
+                "android.permission.PROCESS_OUTGOING_CALLS", "android.permission.BLUETOOTH_ADVERTISE",
+                "android.permission.BLUETOOTH_CONNECT", "android.permission.BLUETOOTH_SCAN",
+                "android.permission.UWB_RANGING", "android.permission.READ_PHONE_STATE",
+                "android.permission.CALL_PHONE", "android.permission.ADD_VOICEMAIL", "android.permission.USE_SIP",
+                "android.permission.ACTIVITY_RECOGNITION", "android.permission.READ_CONTACTS", "android.permission.WRITE_CONTACTS",
+                "android.permission.GET_ACCOUNTS", "android.permission.CAMERA", "android.permission.READ_CALENDAR",
+                "android.permission.RECORD_AUDIO", "android.permission.READ_EXTERNAL_STORAGE", "android.permission.WRITE_EXTERNAL_STORAGE",
+                "android.permission.ACCESS_MEDIA_LOCATION","android.permission.WRITE_CALENDAR", "android.permission.ACCESS_FINE_LOCATION", "android.permission.ACCESS_COARSE_LOCATION",
+        });
+        grantPermissions(pm, "com.android.vending", new String[] {
+                "android.permission.SEND_SMS", "android.permission.RECEIVE_SMS", "android.permission.READ_SMS",
+                "android.permission.RECEIVE_WAP_PUSH", "android.permission.RECEIVE_MMS",
+                "android.permission.READ_CELL_BROADCASTS", "android.permission.ACCESS_BACKGROUND_LOCATION",
+                "android.permission.READ_CALL_LOG", "android.permission.WRITE_CALL_LOG",
+                "android.permission.PROCESS_OUTGOING_CALLS", "android.permission.BLUETOOTH_ADVERTISE",
+                "android.permission.BLUETOOTH_CONNECT", "android.permission.BLUETOOTH_SCAN",
+                "android.permission.UWB_RANGING", "android.permission.READ_PHONE_STATE",
+                "android.permission.CALL_PHONE", "android.permission.ADD_VOICEMAIL", "android.permission.USE_SIP",
+                "android.permission.READ_CONTACTS", "android.permission.WRITE_CONTACTS",
+                "android.permission.GET_ACCOUNTS", "android.permission.READ_EXTERNAL_STORAGE", "android.permission.WRITE_EXTERNAL_STORAGE",
+                "android.permission.ACCESS_MEDIA_LOCATION", "android.permission.ACCESS_FINE_LOCATION", "android.permission.ACCESS_COARSE_LOCATION",
+                "android.permission.FAKE_PACKAGE_SIGNATURE"
+        });
+        grantPermissions(pm, "com.google.android.setupwizard", new String[] {
+                "android.permission.ACCESS_BACKGROUND_LOCATION", "android.permission.ACCESS_FINE_LOCATION", "android.permission.ACCESS_COARSE_LOCATION",
+                "android.permission.READ_CALL_LOG", "android.permission.WRITE_CALL_LOG",
+                "android.permission.PROCESS_OUTGOING_CALLS", "android.permission.READ_PHONE_STATE",
+                "android.permission.CALL_PHONE", "android.permission.ADD_VOICEMAIL", "android.permission.USE_SIP",
+                "android.permission.READ_CONTACTS", "android.permission.WRITE_CONTACTS",
+                "android.permission.GET_ACCOUNTS", "android.permission.CAMERA"
+        });
+        grantPermissions(pm, "com.google.android.marvin.talkback", new String[] {
+                "android.permission.ACCESS_BACKGROUND_LOCATION",
+                "android.permission.READ_CALL_LOG", "android.permission.WRITE_CALL_LOG",
+                "android.permission.PROCESS_OUTGOING_CALLS", "android.permission.BLUETOOTH_ADVERTISE",
+                "android.permission.BLUETOOTH_CONNECT", "android.permission.BLUETOOTH_SCAN",
+                "android.permission.UWB_RANGING", "android.permission.READ_PHONE_STATE",
+                "android.permission.CALL_PHONE", "android.permission.ADD_VOICEMAIL", "android.permission.USE_SIP",
+                "android.permission.CAMERA", "android.permission.RECORD_AUDIO",
+                "android.permission.ACCESS_FINE_LOCATION", "android.permission.ACCESS_COARSE_LOCATION"
+        });
+        grantPermissions(pm, "com.google.android.syncadapters.calendar", new String[]{
+                "android.permission.READ_CALENDAR", "android.permission.WRITE_CALENDAR"
+        });
+        grantPermissions(pm, "com.google.android.syncadapters.contacts", new String[]{
+                "android.permission.READ_CONTACTS", "android.permission.WRITE_CONTACTS", "android.permission.GET_ACCOUNTS"
+        });
+        grantPermissions(pm, "com.google.android.tts", new String[] {
+                "android.permission.RECORD_AUDIO"
+        });
+        grantPermissions(pm, "com.google.android.markup", new String[] {
+                "android.permission.READ_EXTERNAL_STORAGE", "android.permission.WRITE_EXTERNAL_STORAGE",
+                "android.permission.ACCESS_MEDIA_LOCATION"
+        });
+        grantPermissions(pm, "com.google.android.apps.restore", new String[] {
+                "android.permission.ACCESS_BACKGROUND_LOCATION",
+                "android.permission.READ_CALL_LOG", "android.permission.WRITE_CALL_LOG",
+                "android.permission.PROCESS_OUTGOING_CALLS", "android.permission.READ_CONTACTS", "android.permission.WRITE_CONTACTS",
+                "android.permission.GET_ACCOUNTS", "android.permission.ACCESS_FINE_LOCATION", "android.permission.ACCESS_COARSE_LOCATION"
+        });
+        grantPermissions(pm, "com.google.android.projection.gearhead", new String[] {
+                "android.permission.SEND_SMS", "android.permission.RECEIVE_SMS", "android.permission.READ_SMS",
+                "android.permission.RECEIVE_WAP_PUSH", "android.permission.RECEIVE_MMS",
+                "android.permission.READ_CELL_BROADCASTS", "android.permission.ACCESS_BACKGROUND_LOCATION",
+                "android.permission.READ_CALL_LOG", "android.permission.WRITE_CALL_LOG",
+                "android.permission.PROCESS_OUTGOING_CALLS", "android.permission.BLUETOOTH_ADVERTISE",
+                "android.permission.BLUETOOTH_CONNECT", "android.permission.BLUETOOTH_SCAN",
+                "android.permission.UWB_RANGING", "android.permission.READ_PHONE_STATE",
+                "android.permission.CALL_PHONE", "android.permission.ADD_VOICEMAIL", "android.permission.USE_SIP",
+                "android.permission.READ_CONTACTS", "android.permission.WRITE_CONTACTS",
+                "android.permission.GET_ACCOUNTS", "android.permission.READ_CALENDAR",
+                "android.permission.RECORD_AUDIO", "android.permission.WRITE_CALENDAR", "android.permission.ACCESS_FINE_LOCATION",
+                "android.permission.ACCESS_COARSE_LOCATION"
+        });
+    }
+
+    private static void grantPermissions(PackageManager pm, String pkg, String[] perms) {
+        for (String perm : perms) {
+            grantPermission(pm, pkg, perm);
+        }
+    }
+
+    private static void grantPermission(PackageManager pm, String pkg, String perm) {
+        try {
+            pm.grantRuntimePermission(pkg, perm, Process.myUserHandle());
+            pm.updatePermissionFlags(perm, pkg, PackageManager.FLAG_PERMISSION_GRANTED_BY_DEFAULT,
+                    PackageManager.FLAG_PERMISSION_GRANTED_BY_DEFAULT, Process.myUserHandle());
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
     }
     
     private static boolean needWhitelist(Context ctx) {
