@@ -45,8 +45,13 @@
     <java-symbol type="string" name="navbar_editor_voldown" />
     <java-symbol type="string" name="select_button" />
     <java-symbol type="string" name="adjust_button_width" />
-
     <java-symbol type="string" name="extreme_battery_saver_text" />
+
+    <!-- SettingsLib -->
     <java-symbol type="string" name="debug_hw_renderer" />
+
+    <!-- Setup wizard -->
+    <java-symbol type="string" name="gapps_config" />
+    <java-symbol type="string" name="gapps_config_desc" />
 
 </resources>
