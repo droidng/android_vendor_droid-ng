@@ -492,7 +492,7 @@ public final class NgSettings {
 
         /** @hide */
         public static final Validator QS_VERTICAL_SCROLL_VALIDATOR =
-            mBooleanValidator;
+            sBooleanValidator;
 
         /** @hide */
         protected static final ArraySet<String> MOVED_TO_SECURE;
