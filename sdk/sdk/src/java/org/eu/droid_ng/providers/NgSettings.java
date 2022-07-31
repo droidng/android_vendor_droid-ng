@@ -912,6 +912,8 @@ public final class NgSettings {
         static {
             VALIDATORS.put(PRC_QS,
                     PRC_QS_VALIDATOR);
+            VALIDATORS.put(QS_VERTICAL_SCROLL,
+                    QS_VERTICAL_SCROLL_VALIDATOR);
             VALIDATORS.put(__MAGICAL_TEST_PASSING_ENABLER,
                     __MAGICAL_TEST_PASSING_ENABLER_VALIDATOR);
         };
