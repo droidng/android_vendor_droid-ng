@@ -13,11 +13,14 @@
 -->
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <org.eu.droid_ng.preference.NgSystemSettingSwitchPreference
+    <org.eu.droid_ng.preference.NgSystemSettingListPreference
         android:key="prc_qs"
-        android:title="@string/prc_qs_title"
-        android:summary="@string/prc_qs_summary"
-        android:defaultValue="true" />
+        android:title="@string/qs_type_title"
+        android:summary="%s"
+        android:dialogTitle="@string/qs_type_title"
+        android:entries="@array/qs_type_entries"
+        android:entryValues="@array/qs_type_values"
+        android:defaultValue="1" />
     
     <org.eu.droid_ng.preference.NgSecureSettingListPreference
         android:key="power_menu_type"

@@ -483,7 +483,7 @@ public final class NgSettings {
 
         /** @hide */
         public static final Validator PRC_QS_VALIDATOR =
-                sBooleanValidator;
+            new DiscreteValueValidator(new String[] {"0", "1", "2", "3"});
 
         /** @hide */
         protected static final ArraySet<String> MOVED_TO_SECURE;

@@ -47,8 +47,11 @@
     <string name="ng_dashboard_title">droid-ng</string>
     <string name="ng_dashboard_summary">All our extras in one place</string>
 
-    <string name="prc_qs_title">PRC-QS layout</string>
-    <string name="prc_qs_summary">Use small-screen-optimized quick settings layout with compacter tiles</string>
+    <string name="qs_type_title">QS layout</string>
+    <string name="qs_type_twelve">Twelve</string>
+    <string name="qs_type_mixed">Mixed</string>
+    <string name="qs_type_vertical">Vertical</string>
+    <string name="qs_type_round">Round</string>
 
     <string name="power_menu_type_title">Power menu style</string>
     <string name="power_menu_type_lite">Lite (A12)</string>
