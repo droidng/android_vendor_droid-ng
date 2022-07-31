@@ -52,6 +52,7 @@
     <string name="qs_type_mixed">Mixed</string>
     <string name="qs_type_vertical">Vertical</string>
     <string name="qs_type_round">Round</string>
+    <string name="qs_vertical_scroll">Vertical quick settings scrolling</string>
 
     <string name="power_menu_type_title">Power menu style</string>
     <string name="power_menu_type_lite">Lite (A12)</string>

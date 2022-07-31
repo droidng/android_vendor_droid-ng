@@ -484,6 +484,15 @@ public final class NgSettings {
         /** @hide */
         public static final Validator PRC_QS_VALIDATOR =
             new DiscreteValueValidator(new String[] {"0", "1", "2", "3"});
+        
+        /**
+         * Whether to enable vertical qs scroll.
+         */
+        public static final String QS_VERTICAL_SCROLL = "qs_vertical_scroll";
+
+        /** @hide */
+        public static final Validator QS_VERTICAL_SCROLL_VALIDATOR =
+            mBooleanValidator;
 
         /** @hide */
         protected static final ArraySet<String> MOVED_TO_SECURE;
