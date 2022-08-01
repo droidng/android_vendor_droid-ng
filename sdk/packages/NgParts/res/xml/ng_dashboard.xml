@@ -22,10 +22,10 @@
         android:entryValues="@array/qs_type_values"
         android:defaultValue="1" />
     
-    <org.eu.droid_ng.preference.NgSystemSettingSwitchPreference
+    <!-- <org.eu.droid_ng.preference.NgSystemSettingSwitchPreference
         android:key="qs_vertical_scroll"
         android:title="@string/qs_vertical_scroll"
-        android:defaultValue="true" />
+        android:defaultValue="false" /> -->
     
     <org.eu.droid_ng.preference.NgSecureSettingListPreference
         android:key="power_menu_type"
