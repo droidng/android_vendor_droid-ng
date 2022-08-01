@@ -101,4 +101,7 @@
     <string name="microg">microG</string>
     <string name="microg_ps">microG + Play Store</string>
     <string name="microg_s">microG + Play Store + Contact/Calendar Sync</string>
+
+    <!-- Global actions -->
+    <string name="global_action_restart_sysui">SystemUI</string>
 </resources>
