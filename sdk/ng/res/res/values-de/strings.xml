@@ -4,11 +4,11 @@
     <string name="screenshot_delete_label">Löschen</string>
     <string name="screenshot_delete_description">Screenshot löschen</string>
     <string name="ng_system_label">droid-ng-System</string>
-    <string name="permlab_writeSettings">droid-ng-Systemeinstellungen bearbeiten</string>
+    <string name="permlab_writeSettings">droid-ng-Systemeinstellungen zu bearbeiten</string>
     <string name="permdesc_writeSettings">Erlaubt einer Anwendung, droid-ng-Systemeinstellungen zu bearbeiten.</string>
-    <string name="permlab_writeSecureSettings">droid-ng-Sicherheitseinstellungen bearbeiten</string>
+    <string name="permlab_writeSecureSettings">droid-ng-Sicherheitseinstellungen zu bearbeiten</string>
     <string name="permdesc_writeSecureSettings">Erlaubt einer Anwendung, droid-ng-Sicherheitseinstellungen zu bearbeiten. Nicht für normale Anwendungen.</string>
-    <string name="permlab_manageRemotePrefs">Remote-Einstellungen verwalten</string>
+    <string name="permlab_manageRemotePrefs">Remote-Einstellungen zu verwalten</string>
     <string name="permdesc_manageRemotePrefs">Erlaubt einer Anwendung, Remote-Einstellungen zu verwalten</string>
     <string name="ng_version">droid-ng Version</string>
     <string name="ng_maintainer_unknown">Unbekannt</string>
@@ -47,4 +47,21 @@
     <string name="debug_hw_renderer">GPU-Renderer auswählen</string>
     <string name="extreme_battery_saver_text">Extrem</string>
     <string name="clipboard_description">Die Zwischenablage erlaubt es, Dinge direkt in die Zwischenablage zu ziehen. Dinge können auch herausgezogen werden, wenn vorhanden.</string>
+    <string name="gapps_config">Vorinstallierte Apps konfigurieren</string>
+    <string name="gapps_config_desc">Es ist nicht möglich, dies später zu ändern. Ihre gewählten Apps werden nach einem Neustart verfügbar sein. Falls Sie sich unsicher sind, möchten sie wahrscheilich \"Google-Apps\" wählen.
+\nmicroG wird nicht für Personen empfohlen, die nicht wissen, was sie tun. Die \"Google-Apps\" Option und alle \"microG + Play Store\" Optionen enthalten propertäre Software.</string>
+    <string name="gapps">Google-Apps</string>
+    <string name="vanilla">Vanilla</string>
+    <string name="microg">microG</string>
+    <string name="microg_ps">microG + Play Store</string>
+    <string name="microg_s">microG + Play Store + Kontakt/Kalendersynchronisierung</string>
+    <string name="global_action_restart_sysui">SystemUI</string>
+    <string name="smart_charging_title">Intelligentes Aufladen</string>
+    <string name="smart_charging_summary">Maximales Ladelevel</string>
+    <string name="smart_charging_switch_title">Intelligentes Aufladen verwenden</string>
+    <string name="smart_charging_level_title">Stopp-Trigger</string>
+    <string name="smart_charging_resume_level_title">Start-Trigger</string>
+    <string name="smart_charging_reset_stats_title">Statistiken zurücksetzen</string>
+    <string name="smart_charging_reset_stats_summary">Statistiken zurücksetzen, nachdem maximales Ladelevel erreicht wird</string>
+    <string name="smart_charging_footer">Intelligentes Aufladen erlaubt, dass maximale Ladelevel festzulegen, um die Lebensdauer der Batterie zu erhöhen</string>
 </resources>

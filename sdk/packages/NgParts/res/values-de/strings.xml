@@ -22,6 +22,16 @@
     <string name="enabled">Aktiviert</string>
     <string name="ng_dashboard_title">droid-ng</string>
     <string name="ng_dashboard_summary">All unsere Extras an einem Ort</string>
-    <string name="prc_qs_title">PRC-QS Layout</string>
-    <string name="prc_qs_summary">QS-Layout mit kompakteren Kacheln, optimiert für kleine Bildschirme</string>
+    <string name="power_menu_type_legacy">Android 7</string>
+    <string name="qs_type_vertical">Vertikal</string>
+    <string name="qs_type_round">Rund</string>
+    <string name="qs_vertical_scroll">Vertikales QS-Scrollen</string>
+    <string name="power_menu_type_grid">Raster</string>
+    <string name="qs_type_twelve">Zwölf</string>
+    <string name="power_menu_type_lite">Android 12</string>
+    <string name="power_menu_type_full">Android 11</string>
+    <string name="power_menu_type_classic">Android 8</string>
+    <string name="power_menu_type_title">Ein/Aus-Menü-Stil</string>
+    <string name="qs_type_title">QS-Layout</string>
+    <string name="qs_type_mixed">Gemischt</string>
 </resources>
