@@ -1746,6 +1746,27 @@ public final class NgSettings {
         // endregion
 
         // region Global Settings
+
+        /**
+         * Smart Charging
+         */
+        public static final String SMART_CHARGING = "smart_charging";
+        
+        /**
+         * Smart Charging
+         */
+        public static final String SMART_CHARGING_RESET_STATS = "smart_charging_reset_stats";
+
+        /**
+         * Smart Charging
+         */
+        public static final String SMART_CHARGING_LEVEL = "smart_charging_level";
+        
+        /**
+         * Smart Charging
+         */
+        public static final String SMART_CHARGING_RESUME_LEVEL = "smart_charging_resume_level";
+
         // endregion
 
         /**
@@ -1790,6 +1811,10 @@ public final class NgSettings {
         static {
             VALIDATORS.put(__MAGICAL_TEST_PASSING_ENABLER,
                     __MAGICAL_TEST_PASSING_ENABLER_VALIDATOR);
+            VALIDATORS.put(SMART_CHARGING, sBooleanValidator);
+            VALIDATORS.put(SMART_CHARGING_RESET_STATS, sBooleanValidator);
+            VALIDATORS.put(SMART_CHARGING_LEVEL, sNonNegativeIntegerValidator);
+            VALIDATORS.put(SMART_CHARGING_RESUME_LEVEL, sNonNegativeIntegerValidator);
         };
     }
 }

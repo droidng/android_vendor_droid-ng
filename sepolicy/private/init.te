@@ -1,0 +1,2 @@
+allow init sysfs_batteryinfo:file { setattr };
+
