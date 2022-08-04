@@ -28,4 +28,6 @@ endif
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.gms_feature=0
 
+$(call inherit-product, external/svox/svox_tts.mk)
+
 include vendor/droid-ng/sdk/common.mk
