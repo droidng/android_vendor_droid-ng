@@ -13,4 +13,5 @@ DIR=$( cd -P "$( dirname "$SOURCE" )" >/dev/null 2>&1 && pwd )
 cd "$DIR/.."
 git fetch ng ng-v3-l10n
 git merge --squash FETCH_HEAD
+git push -d ng ng-v3-l10n
 git commit -m "Automated translation import"
