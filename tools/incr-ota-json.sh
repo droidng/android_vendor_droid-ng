@@ -12,7 +12,7 @@ function getmeta {
 }
 
 ZIPFULL="droid-ng-$(getprop ro.lineage.version).zip"
-ZIPPATHFULL="$OUT/$ZIP"
+ZIPPATHFULL="$OUT/$ZIPFULL"
 ZIPPATH="$1"
 ZIP="$(basename $ZIPPATH)"
 
