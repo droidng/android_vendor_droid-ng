@@ -29,6 +29,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.gms_feature=0
 
 $(call inherit-product, external/svox/svox_tts.mk)
-$(call inherit-product-if-exists, external/vncflinger/product.mk)
+$(call inherit-product-if-exists, packages/services/VncFlinger/product.mk)
 
 include vendor/droid-ng/sdk/common.mk
